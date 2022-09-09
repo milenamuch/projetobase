@@ -1,0 +1,41 @@
+nav.main {
+    background-color: rgb(59, 102, 244);
+    box-shadow: 0 0 50px azure;
+}
+
+nav.main ul {
+
+    padding: 0;
+    display: flex;
+}
+
+nav.main li {
+    list-style: none;
+    flex: 1 1 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav.main ul li:first-child {
+    justify-content: flex-start;
+}
+
+nav.main ul li img {
+    max-width: 100px;
+    height: 50px;
+}
+
+nav.main ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    min-height: 30px;
+}
+
+nav.main ul li a:hover{
+    background-color: aliceblue;
+    color: rgb(255, 171, 4);
+    transition: all 0.5s;
+}
